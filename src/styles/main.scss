@@ -1,3 +1,10 @@
+@import 'reset';
+@import 'utils';
+@import 'fonts';
+@import 'container';
+@import 'blocks';
+
 body {
-  margin: 0;
+  color: $c-white;
+  font-family: Raleway, sans-serif;
 }

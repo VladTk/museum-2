@@ -1,0 +1,45 @@
+.nav {
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+    @include on-tablet {
+      row-gap: 30px;
+    }
+
+    @include on-desktop {
+      row-gap: 60px;
+    }
+  }
+  &__link {
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 150%;
+
+    @include change-color-on-hover;
+
+    @include on-tablet {
+      font-size: 48px;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background-color: $c-main;
+      transition: width $transition-duration ease;
+    }
+
+    &:hover {
+      &::after {
+        width: 100%;
+      }
+    }
+  }
+}
