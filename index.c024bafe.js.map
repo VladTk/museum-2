@@ -1,0 +1,1 @@
+{"mappings":"ACGA,IAAI,IAAI","sources":["<anon>","src/scripts/main.js"],"sourcesContent":["\"use strict\";\n// eslint-disable-next-line no-undef\nAOS.init();\n\n//# sourceMappingURL=index.c024bafe.js.map\n","'use strict';\n\n// eslint-disable-next-line no-undef\nAOS.init();\n"],"names":["AOS","init"],"version":3,"file":"index.c024bafe.js.map"}
